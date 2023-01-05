@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="connectfour.BoardTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-11-08T22:18:02" hostname="cis2430" time="0.028">
+  <properties/>
+  <testcase name="testGetWinConditionsRowWin" classname="connectfour.BoardTest" time="0.023"/>
+  <testcase name="testGetWinConditionsNoWin" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testCheckColumnFullColumn" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testGetWinConditionsLeftDiagonalWin" classname="connectfour.BoardTest" time="0.001"/>
+  <testcase name="testChangeBoardEmptyColumn" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testCheckColumnEmptyColumn" classname="connectfour.BoardTest" time="0.001"/>
+  <testcase name="testCheckColumnHalfFullColumn" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testCheckBoardFullFull" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testBoardConstructor" classname="connectfour.BoardTest" time="0.001"/>
+  <testcase name="testCheckBoardFullEmpty" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testGetWinConditionsRightDiagonalWin" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testChangeBoardNotEmptyColumn" classname="connectfour.BoardTest" time="0.0"/>
+  <testcase name="testGetWinConditionsColumnWin" classname="connectfour.BoardTest" time="0.001"/>
+  <testcase name="testCheckBoardFullHalfFull" classname="connectfour.BoardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
