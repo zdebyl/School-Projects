@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title> Molecules </title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   <script src="./script.js"></script>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <section id="titlesection">
+   <h1 id="title"> Upload and Display Molecules </h1><br>
+   </section>
+   
+   <section id="addelement">
+   <div>
+   <h2> Add Element </h2>
+      <label>Element number:</label> <br>
+      <input type="text" name="elementnumber" id="number" /> <br><br>
+      <label>Element code:</label> <br>
+      <input type="text" name="elementcode" id="code" /> <br><br>
+      <label>Element name:</label> <br>
+      <input type="text" name="elementname" id="name" /> <br><br>
+      <label>Element colour 1:</label> <br>
+      <input type="text" name="elementcolour1" id="colour1" /> <br><br>
+      <label>Element colour 2:</label> <br>
+      <input type="text" name="elementcolour2" id="colour2" /> <br><br>
+      <label>Element colour 3:</label> <br>
+      <input type="text" name="elementcolour3" id="colour3" /> <br><br>
+      <label>Element radius:</label> <br>
+      <input type="text" name="elementradius" id="radius" /> <br><br>
+      <button id="add-element">Add Element</button> <br><br>
+   </div>
+   </section>
+
+
+   <section id="removeelement">
+   <div>
+   <h2> Remove Element </h2>
+      <label>Element name:</label> <br>
+      <input type="text" name="removeelementname" id="removename" /> <br><br>
+      <button id="remove-element">Remove Element</button> <br><br>
+   </div>
+   </section>
+
+   <section id="uploadfile">
+   <div>
+   <h2> Upload File </h2>
+   <form action="molecule" enctype="multipart/form-data" method="post">
+      <label>Molecule name:</label> <br>
+      <input type="text" name="name" id="fn" />
+      <p>
+         <input type="file" name="filename" id="sdf_file" />
+      </p>
+      <p>
+         <input type="submit" value="Upload" /> <br><br>
+      </p>
+   </form>
+   </div>
+   </section>
+
+   <section id="viewmolecules">
+   <div>
+      <h2> View List of Molecules </h2>
+      <button id="view-molecules">View</button>
+      <p id="all-molecules-data"></p> <br><br>
+   </div>
+   </section>
+
+   <section id="displaymolecules">
+   <div>
+   <h2> Display Molecule </h2>
+      <label>Molecule name:</label> <br>
+      <input type="text" name="displaymolecule" id="display" /> <br><br>
+      <button id="display-molecule">Display</button> <br><br>
+      <div id="moleculedisplaypage"></div>
+   </div>
+   </section>
+   
+</body>
+
+</html>
