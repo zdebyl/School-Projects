@@ -1,6 +1,5 @@
 /*
 Name: Zoe Debyl
-ID: 1186610
 Date: October 22nd 2022
 Assignment: Assignment 2
 */
